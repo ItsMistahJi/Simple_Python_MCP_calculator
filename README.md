@@ -67,5 +67,16 @@ mcp dev calculator.py
 
 ---
 
+## To add it in your MCP client. Use the below JSON in the MCP client settings.
+
+            "Calculator": {
+                "type": "stdio",
+                "command": "/path/to/your/venv/bin/python",
+                "args": [
+                    "/path/to/your/calculator.py"
+                ]
+            }
+
+
 *Happy building with MCP!*
 ```
